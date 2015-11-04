@@ -1,14 +1,17 @@
-var motorBike = {
+var first = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+var second = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+var theird = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+var threeLetter = [];
+if (threeLetter === 49) {
+  
+  break;
 
-  // Only change code below this line.
- "wheels": 3,
- "engines": 0,
- "seats": 1 
-
-
-  // Only change code above this line.
-
-};
-motorBike.wheels = 4;
-motorBike.engines = 1;
-motorBike.seats = 4;
+for (var i = 0; i < first.length; i++) {
+  for (var j = 0; j < second.length; j++) {
+    for (var k = 0; k < theird.length; k++) {
+    document.write(first[i] + second[j] + theird[k] + ".io<br>");
+     
+    }
+  }
+}
+}
