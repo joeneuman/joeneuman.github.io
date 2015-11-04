@@ -11,4 +11,3 @@ for (var i = 0; i < first.length; i++) {
     }
   }
 }
-}
