@@ -3,8 +3,16 @@ a {
 }
 
 #wrapper {
-	max-width: 940px;
-    margin; 0 auto;
-	padding: 0 5%;
+	max-width: 90%;
+    margin: 0 auto;
+	padding: 0 5% 0 5%;
 }
 
+#frame {
+    float:left;
+    margin:10px;
+}
+
+#paragraph {
+	width: 60%;
+}
