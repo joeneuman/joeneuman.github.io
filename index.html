@@ -1,34 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-	<meta charset="UTF-8">
-	<title>Joe Neuman's Journey into Web Development</title>
-	<meta name="description" content="WHAT IS THIS WEBSITE?">
-	<meta name="author" content="Joe Neuman">
-	<link rel="stylesheet" href="style.css"> </head>
+    <meta charset='UTF-8'>
+    <title>TITILE GOES HERE</title>
+    <meta name='description' content='WHAT IS THIS WEBSITE?'>
+    <meta name='author' content='Joe Neuman'>
+    <link rel='stylesheet' href='styles/main.css'> </head>
 </head>
 <body>
-	
-<ul class="navigation">
-  <li><a href="#">Joe Neuman</a></li>
-  <li><a href="#">Education</a></li>
-  <li><a href="#">Business</a></li>
-  <li><a href="#">Personal</a></li>
-</ul> 
-<h1>
-This is my first website. I would like to invite anyone who is interested in learning about web development to join me on my journey through the total emersion web development program at DevMountain.
-</h1>
-<p>
-<a href='#'>
- Aplication Assesment 
- </a> 
- </p>
+    Enter no in the Married field. Then click in the Available field.<br><br>
 
+Married?:<br>
+<input type="text" id="married" onBlur="fillStatus();"><br>
+Available?:<br> 
+<input type="text" id="status" value="to be determined">
+
+<script>
+function fillStatus() {
+  if (document.getElementById("married").value === "no") {
+  document.getElementById("status").value = "Single";
+  }else {
+ 
+}
+   <script src='scripts/main.js'></script>
 </body>
-</html> <ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ol>
+</html>
 
